@@ -88,7 +88,8 @@ def inserir_ordem_servico():
         data_abertura=str(input('Data abertura: ')),
         descricao_servico=str(input('Descricao servico: ')),
         status=str(input('Status: ')),
-        valor_estimado=float(input('Valor estimado: ')),
+        valor_estimado=float
+        (input('Valor estimado: ')),
     )
     print(ordem_servico)
     ordem_servico.save()
